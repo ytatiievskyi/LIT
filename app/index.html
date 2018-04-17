@@ -37,15 +37,15 @@
     </div>
     <div class="container" ng-controller="productController">
         <div class="text-center">
-            <div class="col-lg-6 col-md-offset-3" ng-repeat="product in catalog">
+            <div class="col-lg-6 " ng-repeat="product in catalog">
                 <div>
-                    <img src="/public/img/{{item.img}}">
+                    <img src="http://smktesting.herokuapp.com/static/{{item.img}}">
                     <a href="#/product/{{item.id}}"> {{item.title}}</a>
 
                 </div>
                 <div class="row">
                     <div class="product-description col-lg-3 col-md-offset-3">
-                        <img src="/public/img/{{product.img}}">
+                        <img src="http://smktesting.herokuapp.com/static/{{product.img}}">
                     </div>
                     <div class="col-lg-8 col-md-offset-3" >
                         <div class="product-text">

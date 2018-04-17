@@ -1,9 +1,11 @@
 body {
     font-family: "Comic Sans MS";
 }
-.input-field input[type=range] {
-    background: #4d79bc;
+.star-rating {
+  line-height:32px;
+  font-size:1.25em;
 }
+
 .btn {
     background: #4d79bc;
 }

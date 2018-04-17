@@ -14,5 +14,8 @@
     "angular-ui-router": "^0.3.1",
     "angular-resource": "^1.5.8",
     "materialize": "^0.97.7"
-  }
+  },
+  "resolutions": {
+  "angular": "~1.5.x"
+}
 }
